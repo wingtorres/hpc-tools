@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -A hpc_startup_wtorres 
+#PBS -l nodes=36:ppn=16
+#PBS -l walltime=03:00:00  
+#PBS -N tet
+#PBS -o $PBS_JOBID.out
+#PBS -e $PBS_JOBID.err
+#PBS -m abe
+#PBS -M walter.torres@duke.edu
+cd $PBS_O_WORKDIR
+source /home/wtorres/.modules
+ulimit -s unlimited
+#mpirun -machinefile $PBS_NODEFILE -np 2048 ${tetproj}/coawstM ${tetproj}/coupling_tetiaroa.in
+mpirun -machinefile $PBS_NODEFILE -np 576 ${tetproj}/coawstM ${tetproj}/coupling_tetiaroa.in

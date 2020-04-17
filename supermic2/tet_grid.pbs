@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q single
+#PBS -A hpc_sel_l01
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:10:00  
+#PBS -N tet_grid
+#PBS -o tet_grid.out
+#PBS -e tet_grid.err
+#PBS -m abe
+cd $PBS_O_WORKDIR
+module load matlab
+matlab -nodisplay -nodesktop -nosplash  -r "cd /home/wtorres/COAWST/; tetiaroa_grid; exit"

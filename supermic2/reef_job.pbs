@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -A hpc_sel_l01
+#PBS -l nodes=8:ppn=16
+#PBS -l walltime=72:00:00  
+#PBS -N reef
+#PBS -o ${reefproj}/$PBS_JOBID.out
+#PBS -e ${reefproj}/$PBS_JOBID.err
+#PBS -m abe
+#PBS -M walter.torres@duke.edu
+cd $PBS_O_WORKDIR
+source /home/wtorres/.modules
+echo "${reefproj}"
+ulimit -s unlimited
+mpirun -machinefile $PBS_NODEFILE -np 128 ${reefproj}/coawstM ${reefproj}/coupling_reef.in
+#mpirun -machinefile $PBS_NODEFILE -np 128 ${reefproj}/coawstG ${reefproj}/coupling_reef.in
+#mv $PBS_JOBID.out $reefproj
+#mv $PBS_JOBID.err $reefproj
