@@ -1,0 +1,23 @@
+name: viz
+channels:
+  - conda-forge
+  - intel
+  - defaults
+dependencies:
+  - netcdf4
+  - dask
+  - hvplot
+  - datashader
+  - python=3.7
+  - bokeh
+  - cmocean
+  - geoviews
+  - xarray
+  - bottleneck
+  - cartopy
+  - holoviews
+  - xgcm
+  - selenium
+  - phantomjs
+prefix: /home/wtorres/miniconda/envs/viz
+

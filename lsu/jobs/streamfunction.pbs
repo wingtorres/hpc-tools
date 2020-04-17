@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -A hpc_sel_smic_1
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=00:10:00  
+#PBS -N parcels
+#PBS -o /home/wtorres/COAWST/Scripts/temp/viz.out
+#PBS -e /home/wtorres/COAWST/Scripts/temp/viz.err
+#PBS -m abe
+#PBS -M walter.torres@duke.edu
+cd ~/COAWST/Scripts/temp
+ulimit -s unlimited
+source activate lilac
+projnames=/work/wtorres/annulus/smol*
+
+for g in $projnames
+do
+
+   imagename=$(echo $g | awk -F/ '{print $5}')
+   echo "$imagename"
+   python ~/COAWST/Scripts/analysis/streamfunctionArray.py "$g/Results/ocean_avg_ann_00330.nc" "${imagename}_psi"
+
+done

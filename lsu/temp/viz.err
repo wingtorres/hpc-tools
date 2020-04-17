@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/wtorres/COAWST/Scripts/analysis/streamfunctionArray.py", line 51, in <module>
+    psiFig(sys.argv[1], sys.argv[2])
+  File "/home/wtorres/COAWST/Scripts/analysis/streamfunctionArray.py", line 37, in psiFig
+    ds = xr.open_mfdataset(filename, decode_times = False, combine = "by_coords", parallel = True).mean('ocean_time')                 
+  File "/home/wtorres/.conda/envs/lilac/lib/python3.6/site-packages/xarray/backends/api.py", line 878, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Traceback (most recent call last):
+  File "/home/wtorres/COAWST/Scripts/analysis/streamfunctionArray.py", line 51, in <module>
+    psiFig(sys.argv[1], sys.argv[2])
+  File "/home/wtorres/COAWST/Scripts/analysis/streamfunctionArray.py", line 37, in psiFig
+    ds = xr.open_mfdataset(filename, decode_times = False, combine = "by_coords", parallel = True).mean('ocean_time')                 
+  File "/home/wtorres/.conda/envs/lilac/lib/python3.6/site-packages/xarray/backends/api.py", line 878, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open

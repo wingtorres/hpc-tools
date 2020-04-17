@@ -1,0 +1,225 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    545900.smic3
+Username:  wtorres
+Group:     Users
+Date:      06-Mar-2020 01:10
+Node:      smic011 (88418)
+--------------------------------------
+PBS has allocated the following nodes:
+
+smic011
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node smic011 01:10:15 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 06-Mar-2020 01:10:15
+------------------------------------------------------
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+Deleting particle
+------------------------------------------------------
+Running PBS epilogue script    - 06-Mar-2020 01:12:31
+------------------------------------------------------
+Checking node smic011 (MS)
+resource(s) deleted
+Checking node smic011 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 06-Mar-2020 01:12:35
+------------------------------------------------------
+Exit Status:     0
+Job ID:          545900.smic3
+Username:        wtorres
+Group:           Users
+Job Name:        parcels
+Session Id:      88417
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=00:10:00
+Resources Used:  cput=00:37:49,mem=5040kb,vmem=239952kb,walltime=00:02:18
+Queue Used:      workq
+Account String:  hpc_sel_smic_1
+Node:            smic011
+Process id:      90778
+------------------------------------------------------

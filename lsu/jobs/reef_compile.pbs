@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q single
+#PBS -A hpc_sel_smic_1
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:30:00  
+#PBS -N reefcompile
+#PBS -o PBS_JOBID.compile.out
+#PBS -e PBS_JOBID.compile.err
+#PBS -m abe
+cd $PBS_O_WORKDIR
+source /home/wtorres/.modules
+${reefproj}/coawst_reef.bash -j

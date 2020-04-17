@@ -1,0 +1,1280 @@
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_0.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_5.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_9.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_11.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_18.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_1.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_13.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_19.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_8.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_10.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_4.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_14.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_7.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_15.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_2.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_16.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_3.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_17.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_12.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/c2d00774e71256ddedd476cdee21fe47_6.so
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 39% (16980.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:  00:00:00
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 41% (17880.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18300.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19080.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18480.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19680.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17460.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 45% (19680.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:  00:00:00
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 39% (16920.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17460.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19680.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18420.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17700.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 43% (18960.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (19980.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19320.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19320.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (19920.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19080.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 39% (16860.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (20040.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+ 41% (17760.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 43% (18960.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 43% (18960.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19320.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17640.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 44% (19320.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 39% (17100.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (20280.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (20280.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19500.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (20220.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17520.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17340.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19440.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19500.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 45% (19620.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 47% (20580.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+INFO: Temporary output files are stored in /work/wtorres/temp/out-QUVSXAEF.
+INFO: You can use "parcels_convert_npydir_to_netcdf /work/wtorres/temp/out-QUVSXAEF" to convert these to a NetCDF file during the run.
+ 44% (19020.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+N/A% (0 of 43200.0) |                    | Elapsed Time: 0:00:00 ETA:  --:--:--
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 46% (20280.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17520.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18300.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 42% (18180.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 41% (17760.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:00
+ 40% (17580.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:01
+ 42% (18240.0 of 43200.0) |#####         | Elapsed Time: 0:00:00 ETA:   0:00:01
+ 41% (17820.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (19920.0 of 43200.0) |######        | Elapsed Time: 0:00:00 ETA:   0:00:01
+ 47% (20460.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 47% (20580.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (20040.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (20040.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 45% (19860.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (20220.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 41% (17880.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 44% (19260.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (20160.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 48% (21120.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 47% (20520.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 42% (18480.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 42% (18300.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 41% (17940.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18360.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 46% (20160.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 46% (20220.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 40% (17640.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 47% (20580.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 48% (20880.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 47% (20640.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18420.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 46% (20100.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 46% (20100.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 47% (20340.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 42% (18360.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 48% (21060.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:01
+ 47% (20400.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 45% (19800.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 45% (19560.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 40% (17700.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 50% (21600.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 43% (18660.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18420.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 41% (17820.0 of 43200.0) |#####         | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 41% (18000.0 of 43200.0) |#####         | Elapsed Time: 0:00:02 ETA:   0:00:46
+ 47% (20400.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 47% (20400.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:26
+ 48% (21000.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:34
+ 48% (20760.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:42
+ 43% (18780.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 46% (20160.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:31
+ 48% (21060.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:32
+ 43% (18600.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 43% (18780.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:38
+ 47% (20460.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:02 ETA:   0:00:46
+ 47% (20640.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:30
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:36
+ 46% (20100.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:27
+ 50% (21660.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:23
+ 48% (20760.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:21
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 49% (21480.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 42% (18480.0 of 43200.0) |#####         | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 41% (18060.0 of 43200.0) |#####         | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:32
+ 47% (20640.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:33
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 44% (19140.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:38
+ 49% (21180.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:35
+ 47% (20700.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:33
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 44% (19080.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:34
+ 42% (18420.0 of 43200.0) |#####         | Elapsed Time: 0:00:02 ETA:   0:00:38
+ 46% (20160.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:29
+ 48% (21120.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 51% (22140.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:20
+ 47% (20580.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:28
+ 51% (22380.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 49% (21300.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:20
+ 44% (19020.0 of 43200.0) |######        | Elapsed Time: 0:00:01 ETA:   0:00:02
+ 42% (18540.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:30
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:26
+ 48% (21120.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:32
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:23
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 49% (21300.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:28
+ 45% (19620.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:26
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:36
+ 45% (19620.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:27
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 43% (18900.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:29
+ 49% (21240.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 45% (19620.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 47% (20580.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:29
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 45% (19500.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 44% (19020.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:30
+ 51% (22320.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:21
+ 50% (21600.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:02
+ 46% (20160.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:21
+ 46% (20100.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:22
+ 51% (22320.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:25
+ 51% (22380.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 44% (19380.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:23
+ 50% (21720.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:20
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 46% (20220.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:20
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:24
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 51% (22380.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:16
+ 48% (21120.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:22
+ 45% (19560.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:23
+ 52% (22860.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:17
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 45% (19740.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:23
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 46% (20280.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:22
+ 51% (22380.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:16
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 48% (20760.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:17
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 47% (20700.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 51% (22260.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:16
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 48% (20820.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:19
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:17
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:17
+ 46% (20100.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 54% (23400.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 46% (20280.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:17
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 52% (22860.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 47% (20700.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:18
+ 55% (24060.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:16
+ 49% (21300.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:08
+ 54% (23460.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:16
+ 52% (22800.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 49% (21240.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 55% (24060.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 47% (20700.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 55% (23940.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 48% (20760.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 54% (23400.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 55% (24060.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 54% (23340.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 49% (21300.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:15
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 56% (24600.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:02 ETA:   0:00:07
+ 53% (23280.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 50% (21720.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 55% (23940.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 54% (23340.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:13
+ 56% (24540.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 55% (24000.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 49% (21180.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 56% (24420.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 55% (23820.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:11
+ 55% (24060.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 58% (25080.0 of 43200.0) |########      | Elapsed Time: 0:00:02 ETA:   0:00:10
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:02 ETA:   0:00:07
+ 51% (22260.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:12
+ 58% (25140.0 of 43200.0) |########      | Elapsed Time: 0:00:02 ETA:   0:00:09
+ 49% (21240.0 of 43200.0) |######        | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 50% (21780.0 of 43200.0) |#######       | Elapsed Time: 0:00:02 ETA:   0:00:14
+ 51% (22200.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:13
+ 51% (22200.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:13
+ 49% (21360.0 of 43200.0) |######        | Elapsed Time: 0:00:03 ETA:   0:00:13
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:14
+ 51% (22260.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:15
+ 55% (23880.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 56% (24480.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:14
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 56% (24360.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 51% (22320.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 56% (24240.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 53% (23220.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 55% (24000.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 55% (23820.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 58% (25140.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 54% (23400.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 60% (26160.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:07
+ 51% (22380.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 51% (22260.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 49% (21300.0 of 43200.0) |######        | Elapsed Time: 0:00:03 ETA:   0:00:14
+ 49% (21420.0 of 43200.0) |######        | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 55% (24000.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 56% (24600.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 56% (24540.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:13
+ 56% (24240.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 57% (25020.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 56% (24420.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 54% (23580.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:11
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 54% (23640.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 50% (21960.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:13
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 52% (22560.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 57% (25020.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 59% (25500.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:11
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 61% (26760.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:05
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:12
+ 50% (21900.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:10
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:11
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 57% (24900.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 56% (24540.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:09
+ 50% (21840.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:12
+ 58% (25080.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:09
+ 58% (25080.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 52% (22800.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 59% (25620.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:09
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:07
+ 59% (25560.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 60% (26040.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 53% (22980.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 58% (25140.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 56% (24600.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 51% (22440.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:09
+ 54% (23460.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 51% (22320.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:11
+ 53% (23280.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 60% (26040.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 59% (25560.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 54% (23460.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 59% (25560.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 60% (26160.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 58% (25080.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 59% (25680.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:07
+ 60% (26220.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 61% (26580.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:03 ETA:   0:00:08
+ 59% (25620.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 58% (25080.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 58% (25140.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 60% (26040.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 55% (23940.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 53% (22920.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 55% (23820.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 55% (23940.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 61% (26640.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 52% (22860.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 60% (26040.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 60% (26160.0 of 43200.0) |########      | Elapsed Time: 0:00:03 ETA:   0:00:06
+ 59% (25620.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 61% (26640.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:04
+ 61% (26760.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:05
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:07
+ 60% (26220.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 60% (26100.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:04 ETA:   0:00:04
+ 61% (26580.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 64% (27840.0 of 43200.0) |#########     | Elapsed Time: 0:00:04 ETA:   0:00:04
+ 60% (26220.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:06
+ 56% (24300.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 53% (23280.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:09
+ 55% (24000.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:08
+ 54% (23340.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:15
+ 55% (24060.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:14
+ 56% (24360.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:14
+ 62% (27180.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:12
+ 59% (25620.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:13
+ 61% (26520.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:16
+ 60% (26340.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:13
+ 62% (27060.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:16
+ 56% (24480.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:16
+ 59% (25560.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:14
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:14
+ 55% (24180.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:17
+ 60% (26160.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:12
+ 65% (28500.0 of 43200.0) |#########     | Elapsed Time: 0:00:04 ETA:   0:00:10
+ 61% (26640.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:10
+ 62% (27120.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 62% (27060.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 61% (26580.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 53% (23220.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:20
+ 63% (27240.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 64% (27960.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 56% (24480.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:15
+ 61% (26460.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 61% (26640.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:16
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:14
+ 59% (25620.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 56% (24360.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:16
+ 61% (26760.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:10
+ 60% (26220.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:12
+ 57% (24780.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:15
+ 54% (23460.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:18
+ 61% (26760.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 63% (27420.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 63% (27600.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 63% (27240.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 54% (23340.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:20
+ 66% (28560.0 of 43200.0) |#########     | Elapsed Time: 0:00:04 ETA:   0:00:11
+ 56% (24300.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:15
+ 65% (28140.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 62% (27000.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 62% (27120.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 54% (23520.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:19
+ 60% (26100.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:12
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:15
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:15
+ 61% (26700.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:04 ETA:   0:00:15
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:09
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 57% (24960.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 61% (26520.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 55% (23820.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:17
+ 65% (28080.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 62% (27180.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 64% (27660.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 65% (28080.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 54% (23700.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:18
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:12
+ 58% (25380.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 57% (24840.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:13
+ 57% (24840.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:17
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 65% (28260.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:04 ETA:   0:00:13
+ 66% (28860.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:14
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 65% (28260.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 55% (24120.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:17
+ 64% (27720.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 59% (25500.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 64% (27840.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 67% (28980.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 67% (28980.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 66% (28920.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 68% (29400.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 57% (24660.0 of 43200.0) |#######       | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 66% (28860.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 65% (28320.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 65% (28380.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 60% (26160.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:13
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:10
+ 69% (30060.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 58% (25200.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:11
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 65% (28440.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 68% (29520.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 61% (26760.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 67% (28980.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 59% (25740.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 61% (26700.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 62% (27120.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 62% (26940.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 59% (25800.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:09
+ 67% (29220.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 67% (29220.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 72% (31380.0 of 43200.0) |##########    | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 66% (28800.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 59% (25860.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 65% (28260.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 68% (29760.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 70% (30420.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 62% (27060.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 68% (29700.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 69% (30180.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 59% (25560.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:08
+ 70% (30360.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:04
+ 67% (29340.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 66% (28800.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 62% (27180.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 68% (29520.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 67% (29280.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:06
+ 60% (26280.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:05 ETA:   0:00:07
+ 66% (28620.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 69% (30000.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 60% (26100.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:08
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 69% (30060.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:05 ETA:   0:00:04
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 69% (29880.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 64% (27840.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 70% (30600.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 70% (30600.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 69% (30000.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 64% (27840.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 75% (32760.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 65% (28320.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 61% (26580.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 72% (31140.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 70% (30480.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 65% (28260.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 70% (30600.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 70% (30540.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 70% (30540.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 62% (26820.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 69% (30060.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 65% (28320.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 72% (31140.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 63% (27300.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 70% (30540.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 71% (31080.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 65% (28320.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 66% (28800.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:05
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 77% (33300.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 71% (31020.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 66% (28740.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 72% (31140.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 71% (31080.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 74% (32160.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 71% (31020.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 70% (30600.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 63% (27360.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 66% (28860.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 64% (27840.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31620.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 68% (29460.0 of 43200.0) |#########     | Elapsed Time: 0:00:05 ETA:   0:00:04
+ 74% (32100.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 72% (31140.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 72% (31440.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 78% (33900.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 66% (28920.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 74% (32160.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 73% (31620.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 67% (28980.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 64% (27660.0 of 43200.0) |########      | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 67% (29160.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 78% (34020.0 of 43200.0) |###########   | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 67% (29340.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 71% (30900.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31860.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31560.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 72% (31320.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 68% (29700.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 74% (32040.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31620.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 75% (32700.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 73% (31560.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 75% (32460.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 71% (30720.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 64% (28020.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 75% (32580.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:07
+ 75% (32400.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 71% (31080.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 65% (28140.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 73% (31620.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 76% (33060.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 64% (27780.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:06
+ 67% (29220.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 75% (32760.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 72% (31380.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 74% (32040.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 74% (32340.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 73% (31800.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 67% (29160.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 71% (30780.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32580.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 73% (31860.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 75% (32700.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 68% (29760.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 64% (27900.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:06
+ 72% (31140.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32460.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:06 ETA:   0:00:02
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 70% (30420.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32760.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32460.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 74% (32100.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 68% (29400.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 65% (28320.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:06
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:05
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 76% (33120.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 67% (29340.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 65% (28260.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:06
+ 80% (34980.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 73% (31560.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:03
+ 74% (32160.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 71% (30960.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 78% (33900.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 77% (33300.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 66% (28800.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 75% (32580.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 69% (29880.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 73% (31680.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 76% (33240.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 66% (28740.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 74% (31980.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 76% (33240.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 82% (35460.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 76% (33240.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 69% (30000.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 78% (33780.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 78% (33780.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 75% (32640.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 76% (33240.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 75% (32640.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 74% (32040.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 67% (29040.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 78% (33780.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:06 ETA:   0:00:04
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 78% (33720.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 78% (33780.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 78% (33840.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 70% (30600.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 78% (33780.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 76% (33180.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 68% (29580.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 80% (34920.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 80% (34980.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 69% (30120.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 78% (33840.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 80% (34980.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 80% (34800.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 77% (33300.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:05
+ 80% (34980.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 82% (35460.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 70% (30660.0 of 43200.0) |#########     | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 80% (34920.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33900.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 82% (35460.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 77% (33300.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33900.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 72% (31200.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 82% (35520.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 83% (35940.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33900.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 83% (36060.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 73% (31740.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:04
+ 84% (36600.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 83% (36060.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 77% (33360.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 79% (34440.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36540.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 74% (32280.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 84% (36600.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:00
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 75% (32820.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 85% (37080.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 75% (32760.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:03
+ 85% (37080.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 80% (34980.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37620.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:07 ETA:   0:00:00
+ 77% (33300.0 of 43200.0) |##########    | Elapsed Time: 0:00:07 ETA:   0:00:02
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 79% (34380.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 83% (36000.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 81% (35400.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 76% (33240.0 of 43200.0) |##########    | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 88% (38100.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37680.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 86% (37560.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 86% (37560.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38220.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38100.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 84% (36600.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 80% (34860.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 86% (37560.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 78% (33720.0 of 43200.0) |##########    | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 84% (36360.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 80% (34860.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 87% (37620.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 78% (33720.0 of 43200.0) |##########    | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 89% (38460.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38040.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38160.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 82% (35820.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 88% (38100.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 78% (33960.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 89% (38700.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37620.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 89% (38640.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 81% (35400.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 88% (38100.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:07 ETA:   0:00:01
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 81% (35400.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 88% (38160.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 79% (34320.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 79% (34500.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 89% (38760.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 89% (38580.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 90% (39240.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38220.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 90% (39180.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 89% (38820.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 83% (35940.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 89% (38580.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37680.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 83% (35880.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 89% (38700.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 80% (34860.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 81% (35040.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 92% (39780.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39360.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39720.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 89% (38760.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 84% (36540.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 84% (36480.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 90% (39300.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 ETA:  00:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 82% (35580.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 Time:  0:00:08
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 82% (35460.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:02
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 93% (40380.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40320.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 85% (37140.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 85% (37080.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 92% (39840.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 83% (36120.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 83% (36060.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 94% (40860.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 94% (40980.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40440.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39360.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 88% (38220.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 ETA:  00:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 Time:  0:00:08
+ 87% (37620.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 93% (40380.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 84% (36660.0 of 43200.0) |###########   | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 96% (41520.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41460.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 89% (38820.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 88% (38220.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 94% (40980.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 86% (37200.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42060.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42060.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 91% (39360.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 89% (38760.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 96% (41520.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 87% (37740.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 98% (42600.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 92% (39900.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 91% (39360.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42060.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:08 ETA:   0:00:01
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42600.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 88% (38280.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:01
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42060.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 99% (43140.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 90% (38880.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 89% (38700.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42600.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:08 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:08 Time:  0:00:08
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 91% (39420.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 91% (39360.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 99% (43140.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 92% (39960.0 of 43200.0) |############  | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+ 97% (42000.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 93% (40500.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42540.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 95% (41040.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 96% (41580.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 97% (42120.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+ 98% (42660.0 of 43200.0) |############# | Elapsed Time: 0:00:09 ETA:   0:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 ETA:  00:00:00
+100% (43200.0 of 43200.0) |##############| Elapsed Time: 0:00:09 Time:  0:00:09

@@ -1,0 +1,66 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    547582.smic3
+Username:  wtorres
+Group:     Users
+Date:      17-Mar-2020 06:12
+Node:      smic017 (105564)
+--------------------------------------
+PBS has allocated the following nodes:
+
+smic017
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node smic017 06:12:19 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 17-Mar-2020 06:12:19
+------------------------------------------------------
+smol_lat_+00_z0_004
+smol_lat_+00_z0_0.0625
+smol_lat_+00_z0_016
+smol_lat_+00_z0_0.25
+smol_lat_-15_z0_004
+smol_lat_-15_z0_0.0625
+smol_lat_-15_z0_016
+smol_lat_-15_z0_0.25
+smol_lat_-22.5_z0_004
+smol_lat_-22.5_z0_0.0625
+smol_lat_-22.5_z0_016
+smol_lat_-22.5_z0_0.25
+smol_lat_-30_z0_004
+smol_lat_-30_z0_0.0625
+smol_lat_-30_z0_016
+smol_lat_-30_z0_0.25
+smol_lat_-7.5_z0_004
+smol_lat_-7.5_z0_0.0625
+smol_lat_-7.5_z0_016
+smol_lat_-7.5_z0_0.25
+------------------------------------------------------
+Running PBS epilogue script    - 17-Mar-2020 06:13:19
+------------------------------------------------------
+Checking node smic017 (MS)
+resource(s) deleted
+Checking node smic017 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 17-Mar-2020 06:13:22
+------------------------------------------------------
+Exit Status:     0
+Job ID:          547582.smic3
+Username:        wtorres
+Group:           Users
+Job Name:        parcels
+Session Id:      105563
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=00:10:00
+Resources Used:  cput=00:05:41,mem=186196kb,vmem=2847220kb,walltime=00:01:02
+Queue Used:      workq
+Account String:  hpc_sel_smic_1
+Node:            smic017
+Process id:      107583
+------------------------------------------------------

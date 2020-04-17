@@ -1,0 +1,60 @@
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+WARNING: Casting lon data to np.float32
+WARNING: Casting lat data to np.float32
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_0.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_1.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_3.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_4.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_5.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_6.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_7.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_8.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_9.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_10.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_11.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_12.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_13.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_14.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_15.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_16.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_17.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_18.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_19.so
+INFO: Compiled JITParticleAdvectionRK4 ==> /tmp/parcels-15581/5f96eba1cb0a070776b9d57226653e41_2.so
