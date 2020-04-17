@@ -1,0 +1,15 @@
+#!/bin/bash
+### set the number of nodes
+### set the number of PEs per node
+#PBS -l nodes=1:ppn=8:xe
+### set the wallclock time
+#PBS -l walltime=01:30:00
+### set the job name
+#PBS -N coawst
+### set queue
+#PBS -q high
+ulimit -s unlimited
+cd $PBS_O_WORKDIR
+source /u/eot/torres/coawst_config
+${annproj}/coawst_ann.bash
+

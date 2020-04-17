@@ -1,0 +1,22 @@
+#!/bin/bash
+### set the number of nodes
+### set the number of PEs per node
+#PBS -l nodes=6:ppn=32:xe
+### set the wallclock time
+#PBS -l walltime=48:00:00
+### set the job name
+#PBS -N ann
+### set queue
+#PBS -q high
+### set the job stdout and stderr
+#PBS -e $PBS_JOBID.err
+#PBS -o $PBS_JOBID.out
+### set email notification
+##PBS -m torres
+##PBS -M walter.torres@duke.edu
+
+source /u/eot/torres/coawst_config
+cd COAWST
+echo "${annproj}"
+aprun -n 192 ${annproj}/coawstM ${annproj}/coupling_ann.in
+

@@ -1,0 +1,17 @@
+----------------------------------------
+Begin Torque Prologue on nid25253
+at Fri Mar 13 03:13:03 CDT 2020
+Job Id:			11133995.bw
+Username:		torres
+Group:			EOT_batk
+Job name:		compress
+Requested resources:	nodes=1:ppn=8:xe,walltime=00:10:00,neednodes=1:ppn=8:xe
+Queue:			noalloc
+Account:		batk
+End Torque Prologue:  0.095 elapsed
+----------------------------------------
+
+
+
+
+Copying /scratch/eot/torres/smol_lat_+00_z0_0.0625 to LSU...

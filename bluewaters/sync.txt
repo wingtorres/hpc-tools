@@ -1,0 +1,197 @@
+Copying /scratch/eot/torres/slope_lat_+00_z0_0.25 to LSU...
+sending incremental file list
+
+sent 2760 bytes  received 14 bytes  504.36 bytes/sec
+total size is 1230012058426  speedup is 443407375.06
+Copying /scratch/eot/torres/slope_lat_+00_z0_16 to LSU...
+sending incremental file list
+file has vanished: "/scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00196.nc"
+slope_lat_+00_z0_16/Results/
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00003.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00004.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00005.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00006.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00007.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00008.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00009.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00010.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00011.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00012.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00013.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00014.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00015.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00016.nc
+slope_lat_+00_z0_16/Results/ocean_dia_ann_00017.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00001.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00002.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00003.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00004.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00005.nc
+slope_lat_+00_z0_16/Results/ocean_his_ann_00006.nc
+batchSync.sh: line 5: 40712 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-15_z0_0.25 to LSU...
+sending incremental file list
+slope_lat_-15_z0_0.25/Results/
+slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00194.nc
+slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00195.nc
+slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00196.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00001.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00002.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00003.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00004.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00005.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00006.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00007.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00008.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00009.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00010.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00011.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00012.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00013.nc
+slope_lat_-15_z0_0.25/Results/ocean_dia_ann_00014.nc
+batchSync.sh: line 5: 31164 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-15_z0_16 to LSU...
+sending incremental file list
+slope_lat_-15_z0_16/Results/
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00177.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00178.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00179.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00180.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00181.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00182.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00183.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00184.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00185.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00186.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00187.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00188.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00189.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00190.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00191.nc
+slope_lat_-15_z0_16/Results/ocean_avg_ann_00192.nc
+batchSync.sh: line 5: 41493 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-22.5_z0_0.25 to LSU...
+sending incremental file list
+slope_lat_-22.5_z0_0.25/Results/
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00170.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00171.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00172.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00173.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00174.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00175.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_avg_ann_00176.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00001.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00002.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00003.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00004.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00005.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00006.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00007.nc
+slope_lat_-22.5_z0_0.25/Results/ocean_dia_ann_00008.nc
+batchSync.sh: line 5: 23510 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-22.5_z0_16 to LSU...
+sending incremental file list
+file has vanished: "/scratch/eot/torres/slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00185.nc"
+slope_lat_-22.5_z0_16/Results/
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00168.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00169.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00170.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00171.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00172.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00173.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00174.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00175.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00176.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00177.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00178.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00179.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00180.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00181.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00182.nc
+slope_lat_-22.5_z0_16/Results/ocean_avg_ann_00183.nc
+batchSync.sh: line 5:  5778 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-30_z0_0.25 to LSU...
+sending incremental file list
+slope_lat_-30_z0_0.25/Results/
+slope_lat_-30_z0_0.25/Results/ocean_dia_ann_00011.nc
+slope_lat_-30_z0_0.25/Results/ocean_dia_ann_00012.nc
+slope_lat_-30_z0_0.25/Results/ocean_dia_ann_00013.nc
+slope_lat_-30_z0_0.25/Results/ocean_dia_ann_00014.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00001.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00002.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00003.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00004.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00005.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00006.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00007.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00008.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00009.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00010.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00011.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00012.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00013.nc
+slope_lat_-30_z0_0.25/Results/ocean_his_ann_00014.nc
+
+sent 119580261873 bytes  received 359 bytes  50982844.69 bytes/sec
+total size is 1131219282382  speedup is 9.46
+Copying /scratch/eot/torres/slope_lat_-30_z0_16 to LSU...
+sending incremental file list
+file has vanished: "/scratch/eot/torres/slope_lat_-30_z0_16/Results/ocean_avg_ann_00193.nc"
+slope_lat_-30_z0_16/Results/
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00178.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00179.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00180.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00181.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00182.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00183.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00184.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00185.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00186.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00187.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00188.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00189.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00190.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00191.nc
+slope_lat_-30_z0_16/Results/ocean_avg_ann_00192.nc
+batchSync.sh: line 5: 55385 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-7.5_z0_0.25 to LSU...
+sending incremental file list
+slope_lat_-7.5_z0_0.25/Results/
+slope_lat_-7.5_z0_0.25/Results/ocean_avg_ann_00177.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_avg_ann_00178.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_avg_ann_00179.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_avg_ann_00180.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00001.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00002.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00003.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00004.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00005.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00006.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00007.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00008.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00009.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00010.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00011.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00012.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00013.nc
+slope_lat_-7.5_z0_0.25/Results/ocean_dia_ann_00014.nc
+batchSync.sh: line 5: 35792 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"
+Copying /scratch/eot/torres/slope_lat_-7.5_z0_16 to LSU...
+sending incremental file list
+slope_lat_-7.5_z0_16/Results/
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00172.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00173.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00174.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00175.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00176.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00177.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00178.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00179.nc
+slope_lat_-7.5_z0_16/Results/ocean_avg_ann_00180.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00001.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00002.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00003.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00004.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00005.nc
+slope_lat_-7.5_z0_16/Results/ocean_dia_ann_00006.nc
+batchSync.sh: line 5: 40555 Killed                  /usr/bin/rsync --ignore-existing -avre 'sshpass -p "inyathi777_Hiraaji13!" ssh' $g wtorres@smic1.hpc.lsu.edu:/work/wtorres/annulus --exclude 'Build' --exclude="ocean_avg_ann_000*"

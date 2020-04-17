@@ -1,0 +1,587 @@
+----------------------------------------
+Begin Torque Prologue on nid25262
+at Sun Mar 29 03:31:22 CDT 2020
+Job Id:			11181517.bw
+Username:		torres
+Group:			EOT_batk
+Job name:		compress
+Requested resources:	nodes=1:ppn=8:xe,walltime=24:00:00,neednodes=1:ppn=8:xe
+Queue:			noalloc
+Account:		batk
+End Torque Prologue:  0.094 elapsed
+----------------------------------------
+
+
+
+
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+skipping
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00161.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00162.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00163.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00164.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00165.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00166.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00167.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00168.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00169.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00170.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00171.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00172.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00173.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00174.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00175.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00176.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00177.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00178.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00179.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00180.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00181.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00182.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00183.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00184.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00185.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00186.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00187.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00188.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00189.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00190.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00191.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00192.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00193.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00194.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00195.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_avg_ann_00196.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00001.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00002.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00003.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00004.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00005.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00006.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00007.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00008.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00009.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00010.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00011.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00012.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00013.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00014.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00015.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00016.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_dia_ann_00017.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00001.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00002.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00003.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00004.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00005.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00006.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00007.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00008.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00009.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00010.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00011.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00012.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00013.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00014.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00015.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00016.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Copying /scratch/eot/torres/slope_lat_+00_z0_16/Results/ocean_his_ann_00017.nc to /scratch/eot/torres/compress/slope_lat_+00_z0_16/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00001.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00002.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00003.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00004.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00005.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00006.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00007.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00008.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00009.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00010.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00011.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00012.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00013.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00014.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00015.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00016.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00017.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00018.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00019.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00020.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00021.nc ...
+Compressing /scratch/eot/torres/temp/temp.nc ...
+Transferred to /scratch/eot/torres/compress/slope_lat_-15_z0_0.25/Results/
+Averaging /scratch/eot/torres/slope_lat_-15_z0_0.25/Results/ocean_avg_ann_00022.nc ...

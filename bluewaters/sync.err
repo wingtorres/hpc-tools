@@ -1,0 +1,8 @@
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(641) [sender=3.0.4]
+/var/spool/torque/mom_priv/jobs/11133995.bw.SC: line 30: Remaining:: command not found
+/var/spool/torque/mom_priv/jobs/11133995.bw.SC: line 30: Understanding: command not found
+/var/spool/torque/mom_priv/jobs/11133995.bw.SC: line 30: *batk: command not found

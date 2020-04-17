@@ -1,0 +1,18 @@
+#!/bin/bash
+### set the number of nodes
+### set the number of PEs per node
+#PBS -l nodes=4:ppn=32:xe
+### set the wallclock time
+#PBS -l walltime=06:00:00
+### set the job name
+#PBS -N coawst
+### set the job stdout and stderr
+#PBS -e $PBS_JOBID.err
+#PBS -o $PBS_JOBID.out
+### set email notification
+##PBS -m torres
+##PBS -M walter.torres@duke.edu
+source coawst_config
+cd COAWST
+#aprun -n 128 ./coawstM Projects/Inlet_test/DiffGrid/coupling_inlet_test_diffgrid.in
+aprun -n 128 ./coawstM Projects/QA/Coupled/coupling_qa.in

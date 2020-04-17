@@ -1,0 +1,16 @@
+#!/bin/bash
+### set the number of nodes
+### set the number of PEs per node
+#PBS -l nodes=1:ppn=8:xe
+### set the wallclock time
+#PBS -l walltime=24:00:00
+### set the job name
+#PBS -N compress
+### set queue
+#PBS -q noalloc
+### set output
+#PBS -e compress.err
+#PBS -o compress.out
+cd $PBS_O_WORKDIR
+ulimit -s unlimited
+/bin/bash batchCompress.sh
