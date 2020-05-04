@@ -1,5 +1,5 @@
 #!/bin/bash
-projdir=${MYSCRATCH}/bluewaters/*
+projdir=${MYSCRATCH}/pawsey/*
 
 wavnodes=16
 ocnnodes=80
@@ -11,7 +11,7 @@ for f in $projdir
 do
 
 export annproj=$f
-#export annproj=/scratch/pawsey0106/wtorres/bluewaters/smol_lat_-7.5_z0_016
+#export annproj=/scratch/pawsey0106/wtorres/pawsey/smol_lat_-30_z0_01
 echo "$annproj"
 
 sed -i "s#NnodesWAV =.*#NnodesWAV = ${wavnodes}#" ${annproj}/coupling_ann.in
@@ -28,7 +28,7 @@ sed -i "s#COMPUTE NONSTATIONARY.*#COMPUTE NONSTATIONARY 20000114.120000 600 SEC 
 
 #sed -i "s#VISC2 == [^ ]*#VISC2 == 0.5d0#" ${annproj}/ocean_ann.in
 
-dt=2 #time step
+dt=1 #time step
 nt=1425600 #total time of simulation in seconds
 sed -i "s#DT ==.*#DT == ${dt}#" ${annproj}/ocean_ann.in #change time step
 sed -i "s#NTIMES ==.*#NTIMES == $((nt / dt))#" ${annproj}/ocean_ann.in #change simulation time
