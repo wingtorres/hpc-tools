@@ -17,14 +17,14 @@ echo "$f"
 #sed -i "s#RESTART.*#RESTART '${annproj}/swan_rst.dat' FREE 3 HR#" ${annproj}/swan_ann.in
 #sed -i '0,/RESTART.*/ s///' ${annproj}/swan_ann.in
 
-cp  /group/pawsey0106/wtorres/COAWST/Projects/Annulus/smol/init/swan_rst* ${annproj}
-sed -i "/^& PHYSICS  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/i INIT HOTSTART MULTIPLE '${annproj}/swan_rst.dat' FREE" ${annproj}/swan_ann.in #| diff ${annproj}/swan_ann.in - 
+#cp  /group/pawsey0106/wtorres/COAWST/Projects/Annulus/smol/init/swan_rst* ${annproj}
+#sed -i "/^& PHYSICS  \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/i INIT HOTSTART MULTIPLE '${annproj}/swan_rst.dat' FREE" ${annproj}/swan_ann.in #| diff ${annproj}/swan_ann.in - 
 
 #cp /scratch/pawsey0106/wtorres/bluewaters/smol_lat_-30_z0_0.25/swan_rst.dat* ${annproj}/swan_ann.in 
-#for rstfile in /group/pawsey0106/wtorres/COAWST/Projects/Annulus/smol/init/swan_rst*
-#do
-#sed -i '0,/20000113.060000/s//20000114.060000/' $rstfile
-#done
+for rstfile in /group/pawsey0106/wtorres/COAWST/Projects/Annulus/smol/init/swan_rst*
+do
+sed -i '0,/20000114.060000/s//20000114.120000/' $rstfile
+done
 
 #mv -v ${annproj}/results/ocean_his_ann_00027.nc ${annproj}/results/ocean_his_ann_00014.nc
 #mv -v ${annproj}/results/ocean_dia_ann_00027.nc ${annproj}/results/ocean_dia_ann_00014.nc

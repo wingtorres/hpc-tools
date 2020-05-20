@@ -6,5 +6,6 @@
 #SBATCH --mail-user=walter.torres@duke.edu
 
 cd $annproj
+echo "$SLURM_JOB_ID"
 source ${MYGROUP}/coawst_modules
 srun -n $SLURM_NTASKS ${annproj}/coawstM ${annproj}/coupling_ann.in
