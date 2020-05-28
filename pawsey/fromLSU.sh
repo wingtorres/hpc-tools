@@ -1,1 +1,0 @@
-rsync -avre ssh wtorres@smic.hpc.lsu.edu:/work/wtorres/annulus/smol_lat_-30_z0_0.0625 . --exclude='Build' --exclude='coawstM' --exclude='ann.e' --exclude='ann.o' --exclude='compile.e' --exclude='compile.o' --include='Results/' --include='Results/ocean_his_ann_00027.nc' --include='Results/ocean_dia_ann_00027.nc' --exclude='Results/*'
