@@ -14,7 +14,7 @@ from pycoawst.tools.grid import cart2polar
 scratch = os.environ['MYSCRATCH']
 group = os.environ['MYGROUP']
 
-filepaths = sorted([f for f in os.listdir(group + "/COAWST/hpc-tools/pawsey/visualisation/") if f.startswith("smol")])
+filepaths = sorted([f for f in os.listdir(group + "/hpc-tools/pawsey/visualisation/") if f.startswith("smol")])
 proj = crs.NorthPolarStereo()
 plt.rcParams["text.usetex"] = False
 
@@ -32,8 +32,9 @@ def axisfix(axis, lon, lat, var, cmax = None, cmap = cmocean.cm.balance, norm = 
 	
 	with sns.axes_style("white", rc={'text.usetex':False}):
 		
-		axis.set_extent([80,100,89.825,89.9125], crs=crs.PlateCarree())
-
+		#axis.set_extent([80,100,89.825,89.9125], crs=crs.PlateCarree())
+		axis.set_extent([77.5,102.5,89.825,89.9125], crs=crs.PlateCarree())
+		
 		pc = axis.pcolormesh(lon.values + 90, lat.values, np.squeeze(var.values), transform = crs.PlateCarree(),
 					  cmap = cmap, vmin = -cmax, vmax = cmax, norm = norm, 
 					  edgecolor = [0,0,0.25], linewidth = 0, rasterized = True)
@@ -56,23 +57,25 @@ def circvis(ds, filename = "circ", sigma = -1):
 		  
 		  pu = axisfix(ax[0,0], dg['lon_u_polar'], dg['lat_u_polar'], ds['u'].isel(s_rho = sigma), cmax = 0.25)
 		  pv = axisfix(ax[0,1], dg['lon_v_polar'], dg['lat_v_polar'], ds['v'].isel(s_rho = sigma), cmax = 0.25)
-		  pw = axisfix(ax[0,2], dg['lon_psi_polar'], dg['lat_psi_polar'], ds['rvorticity'].isel(s_rho = sigma), cmax = 1e-4, cmap = cmocean.cm.curl)
+		  #pw = axisfix(ax[0,2], dg['lon_psi_polar'], dg['lat_psi_polar'], ds['rvorticity'].isel(s_rho = sigma)/ds['f'].mean(), cmax = 1e1, cmap = cmocean.cm.curl)
+		  pw = axisfix(ax[0,2], dg['lon_psi_polar'], dg['lat_psi_polar'], ds['alpha'].isel(s_rho = sigma), cmax = np.pi, cmap = mpl.cm.twilight_shifted)
 		  
-
-		  ax[0,0].text(0.9, 0.1, "$u$", transform=ax[0,0].transAxes, size=8)
-		  ax[0,1].text(0.9, 0.1, "$v$", transform=ax[0,1].transAxes, size=8)
-		  ax[0,2].text(0.9, 0.1, "$\omega$", transform=ax[0,2].transAxes, size=8)
+		  ax[0,0].text(0.9, 0.05, "$u$", transform=ax[0,0].transAxes, size=8)
+		  ax[0,1].text(0.9, 0.05, "$v$", transform=ax[0,1].transAxes, size=8)
+		  ax[0,2].text(0.9, 0.05, r"$ \alpha $", transform=ax[0,2].transAxes, size=8)
 		  
-		  cb = fig.colorbar(pu, ax = ax[0], location = "bottom", anchor = (1/3, 0), shrink = 1.0, aspect = 60, fraction = 0.2, pad = .25)
+		  cb = fig.colorbar(pu, ax = ax[0], location = "bottom", anchor = (0, -.05), shrink = 2/3, aspect = 60, fraction = 0.2, pad = .25)
+		  cb.ax.set_xlabel("Velocity (m/s)", fontsize = 8)
 		  cb.ax.tick_params(width = 0.25, length = 2, labelsize = 6)
 		  cb.outline.set_linewidth(0.25) 
-		  
-		  cb = fig.colorbar(pw, ax = ax[0], location = "bottom", anchor = (1/3,0), shrink = 1.0, aspect = 60, fraction = 0.2, pad = 0.0)
+		   
+		  cb = fig.colorbar(pw, ax = ax[0], location = "bottom", anchor = (1, -4.875), shrink = 1/3, aspect = 30, fraction = 0.2, pad = .25)
+		  cb.ax.set_xlabel("Direction (rads)", fontsize = 8)
 		  cb.ax.tick_params(width = 0.25, length = 2, labelsize = 6)
 		  cb.outline.set_linewidth(0.25) 
 		  
 		  fig.subplots_adjust(wspace = 0, hspace = 0) 
-		  fig.suptitle( "$\sigma = {}$".format(sigma), y = 0.55) 
+		  fig.suptitle( "$\sigma = {}$".format(sigma), y = 0.5) 
 		  plt.savefig("{}.png".format(filename), dpi = 1200, bbox_inches = "tight")
 
 def momvis(ds, filename = "mom", sigma = -1):
@@ -86,7 +89,7 @@ def momvis(ds, filename = "mom", sigma = -1):
 	for k,m in enumerate(momentum_terms):
 		axis = ax.flatten()[k]
 		pm = axisfix(axis, dg['lon_u_polar'], dg['lat_u_polar'], ds[m].isel(s_rho = sigma), cmax = 1e-4, norm = norm)
-		axis.text(0.85, 0.1, "{}".format(m), transform=axis.transAxes, size=6)
+		axis.text(0.75, 0.1, "{}".format(m), transform=axis.transAxes, size=6)
 	
 	cb = fig.colorbar(pm, ax = ax[-1,:], location = "bottom", anchor = (0.5, 0), shrink = 1.0, aspect = 60, fraction = 0.2, pad = .25)
 	cb.ax.tick_params(width = 0.25, length = 2, labelsize = 6)
@@ -96,7 +99,7 @@ def momvis(ds, filename = "mom", sigma = -1):
 	plt.savefig("{}.png".format(filename), dpi = 1200, bbox_inches = "tight")
 
 #for f in filepaths[:1]:
-f = filepaths[10]
+f = filepaths[-4]
 print(f)
 cirname = f + '/avgplus.nc'
 swname = f + '/sw.nc'

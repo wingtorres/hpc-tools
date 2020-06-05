@@ -16,9 +16,10 @@ def enhanceDS(ds, grid = None):
    #rotate with CCW and find streamwise-normal magnitude and angle
    ds = lagrangianVelocity(ds, grid = grid)
    ds = streamwise_normal(ds, grid = grid)
-   ds['u'] *= -1
-   ds['ubar'] *= -1
-   ds['u_stokes'] *= -1
+   
+	#ds['u'] *= -1
+   #ds['ubar'] *= -1
+   #ds['u_stokes'] *= -1
 
    #derived quantities
    ds['rvorticity_normalized'] = ds.rvorticity_bar/ds['f'].values.mean()

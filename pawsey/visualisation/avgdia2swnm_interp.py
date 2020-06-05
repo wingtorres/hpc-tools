@@ -38,7 +38,7 @@ coords={'xi':{'center':'xi_rho', 'inner':'xi_u'},
         'eta':{'center':'eta_rho', 'inner':'eta_v'}, 
          's':{'center':'s_rho', 'outer':'s_w'}}
    
-for f in filepaths[-4:]:
+for f in filepaths[12:]:
 
 	print("Averaging {}...".format(f))
 	dirname = f.split('/')[5]
@@ -48,8 +48,8 @@ for f in filepaths[-4:]:
 
 	avgout = "{}/{}".format(dirname,avgfile)
 	diaout = "{}/{}".format(dirname,diafile)
-	nmout = "{}/{}".format(dirname,swfile)
-	swout = "{}/{}".format(dirname,nmfile)
+	swout = "{}/{}".format(dirname,swfile)
+	nmout = "{}/{}".format(dirname,nmfile)
 	
 	os.makedirs(dirname, exist_ok = True)
 	
@@ -73,9 +73,6 @@ for f in filepaths[-4:]:
 	dc = dc.resample(ocean_time="3H").mean()
 	dm = dm.resample(ocean_time="3H").mean()
 
-	dc.to_netcdf('circulation.nc')
-	dm.to_netcdf('momentum.nc')
-	assert(False)
 	#streamwise normal rotation
 	dsw, dnm, twonames, trinames = mom2swnm(dm, dc, grid) #convert to streamwise normal momentum budget
 
@@ -84,4 +81,3 @@ for f in filepaths[-4:]:
 	dsw.mean('ocean_time').to_netcdf(swout)
 	dnm.mean('ocean_time').to_netcdf(nmout)
 		
-	assert(False)
