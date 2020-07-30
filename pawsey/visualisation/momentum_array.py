@@ -9,12 +9,17 @@ import matplotlib as mpl
 import seaborn as sns
 import cmocean
 
-from pycoawst.tools.grid import cart2polar
+from pycoawst.tools.grid import cart2polar, metrics
+
+#from dask.distributed import Client,LocalCluster
+#cluster = LocalCluster()
+#client = Client(cluster)
+#assert(False)
 
 scratch = os.environ['MYSCRATCH']
 group = os.environ['MYGROUP']
 
-filepaths = sorted([f for f in os.listdir(group + "/COAWST/hpc-tools/pawsey/visualisation/") if f.startswith("smol")])
+filepaths = sorted([f for f in os.listdir(group + "/hpc-tools/pawsey/visualisation/") if f.startswith("smol")])
 
 z0 = ['0.0625', '0.25', '001', '004', '016']
 lat = ['+00', '-7.5', '-15', '-22.5', '-30']
@@ -26,18 +31,20 @@ plt.rcParams["text.usetex"] = False
 
 grdname = group + '/COAWST/Projects/Annulus/smol/ann_grid.nc' 
 dg = xr.open_dataset(grdname)
+metrics(dg)
 dg['lon_u_polar'], dg['lat_u_polar'] = cart2polar( dg['x_u'], dg['y_u'])
 dg['lon_v_polar'], dg['lat_v_polar'] = cart2polar( dg['x_v'], dg['y_v'])
 dg['lon_psi_polar'], dg['lat_psi_polar'] = cart2polar( dg['x_psi'], dg['y_psi' ])
 dg['lon_rho_polar'], dg['lat_rho_polar'] = cart2polar( dg['x_rho'], dg['y_rho' ])
 
-def axisfix(axis, lon, lat, var, cmax = None):
+def axisfix(axis, lon, lat, var, cmax = None, flux = 1):
 	with sns.axes_style("white", rc={'text.usetex':False}):
 		
 		axis.set_extent([80,100,89.825,89.9125], crs=crs.PlateCarree())
+		norm=colors.SymLogNorm(linthresh=1e-7, linscale=0.1, vmin=-1e-4, vmax=1e-4, base=10)
 
-		pc = axis.pcolormesh(lon, lat, var, transform = crs.PlateCarree(),
-					  cmap = cmocean.cm.balance, vmin = -cmax, vmax = cmax, #norm = norm, 
+		pc = axis.pcolormesh(lon, lat, var*flux, transform = crs.PlateCarree(),
+					  cmap = cmocean.cm.balance, norm = norm, 
 					  edgecolor = [0,0,0.25], linewidth = 0, rasterized = True)
 		
 		axis.outline_patch.set_visible(False)
@@ -64,7 +71,7 @@ for f in filepaths:
     i = latdict[ latstr ]
     j = z0dict[ z0str ]
     #print("lat = " + latstr + " // z0 = " + z0str)  
-    dss[i,j] = xr.open_dataset( "{}/nm.nc".format(f), decode_times = False) 
+    dss[i,j] = xr.open_dataset( "{}/sw.nc".format(f), decode_times = False) 
 
 for key in vars:
 
@@ -76,7 +83,7 @@ for key in vars:
 		
 		axis = axes[i,j]
 		var =  np.squeeze(ds[key])
-		pc = axisfix(axis = axis, lon = dg['lon_psi_polar'].values + 90, lat = dg['lat_psi_polar'].values, var = var, cmax = 1e-4)
+		pc = axisfix(axis = axis, lon = dg['lon_psi_polar'].values + 90, lat = dg['lat_psi_polar'].values, var = var, cmax = 1e-4. flux = dg['h_psi'])
 		
 		#labeling
 		if axis.is_first_row():

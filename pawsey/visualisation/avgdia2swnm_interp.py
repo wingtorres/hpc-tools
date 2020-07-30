@@ -5,7 +5,7 @@ import xgcm
 
 from functions import enhanceDS, orientDS
 from pycoawst.tools.grid import sigma2z, metrics
-from pycoawst.tools.momentum import mom2swnm
+from pycoawst.tools.momentum import momn2swnm
 from pycoawst.tools.grid import cart2polar
 from pycoawst.tools.operators import nctAvg
 
@@ -16,7 +16,7 @@ group = os.environ['MYGROUP']
 
 directory = scratch + "/doneski/"
 filepaths = sorted([directory + f + '/results/' for f in os.listdir(directory) ])
-filepaths
+#print(filepaths)
 
 grdname = group + '/COAWST/Projects/Annulus/smol/ann_grid.nc' 
 dg = xr.open_dataset(grdname)
@@ -38,7 +38,7 @@ coords={'xi':{'center':'xi_rho', 'inner':'xi_u'},
         'eta':{'center':'eta_rho', 'inner':'eta_v'}, 
          's':{'center':'s_rho', 'outer':'s_w'}}
    
-for f in filepaths[12:]:
+for f in filepaths[-10:]:
 
 	print("Averaging {}...".format(f))
 	dirname = f.split('/')[5]
@@ -57,7 +57,7 @@ for f in filepaths[12:]:
 	avgdaylist = nctAvg(start,finis,avglist,avgout, average = False)
 	diadaylist = nctAvg(start,finis,dialist,diaout, average = False)
 
-	#load lists as multfile datasets
+	#load lists as multifile datasets
 	ds_avgday = xr.open_mfdataset(avgdaylist, decode_times = True, parallel = True, combine = "by_coords", data_vars = 'minimal')
 	ds_diaday = xr.open_mfdataset(diadaylist, decode_times = True, parallel = True, combine = "by_coords", data_vars = 'minimal')
    
@@ -74,10 +74,9 @@ for f in filepaths[12:]:
 	dm = dm.resample(ocean_time="3H").mean()
 
 	#streamwise normal rotation
-	dsw, dnm, twonames, trinames = mom2swnm(dm, dc, grid) #convert to streamwise normal momentum budget
+	dsw, dnm, twonames, trinames = momn2swnm(dm, grid, dc = False) #convert to streamwise normal momentum budget
 
 	#average over day
 	dc.mean('ocean_time').to_netcdf(avgout)
 	dsw.mean('ocean_time').to_netcdf(swout)
 	dnm.mean('ocean_time').to_netcdf(nmout)
-		
