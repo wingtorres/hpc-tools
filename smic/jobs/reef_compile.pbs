@@ -9,4 +9,4 @@
 #PBS -m abe
 cd $PBS_O_WORKDIR
 source /home/wtorres/.modules
-${reefproj}/coawst_reef.bash -j
+${reefproj}/coawst_reef.bash -j -noclean

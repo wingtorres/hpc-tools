@@ -1,15 +1,15 @@
 #!/bin/bash
 # Job submission loop for reef toy problem
-cd /home/wtorres/COAWST/Scripts
+#cd /home/wtorres/COAWST/Scripts
 
 #for i in {0, 0.25, 5, 1, 2, 4, 8, 16} #currents: u (cm/s)
-#for i in .25 16
-#do
+for i in .25 16
+do
 #for j in {.0625, .25, 1, 4, 16} #roughness length scale: z0 (cm)
-#for j in .0625 16
-#do
-i=16
-j=.0625
+for j in .0625 16
+do
+#i=16
+#j=.0625
 
 u=$(echo "$i/100" | bc -l)  #convert to m/s
 ustr=$(printf "%0.6f\n" $u) 
@@ -18,7 +18,7 @@ z0str=$(printf "%0.6f\n" $z0)
 kN=$(echo "$j*30/100" | bc -l)
 kNstr=$(printf "%0.6f\n" $kN)
 
-dirname='reef_hs_075_u_'$(printf "%03g\n" $i)'_z0_'$(printf "%03g\n" $j) #name directory
+dirname='reef_hs_025_u_'$(printf "%03g\n" $i)'_z0_'$(printf "%03g\n" $j) #name directory
 export reefproj="/work/wtorres/${dirname}"
 export homeproj="/home/wtorres/COAWST/Projects/reef"
 
@@ -55,5 +55,5 @@ sed -i -- "s#${homeproj}#${reefproj}#g" ${reefproj}/*.in #find and replace proje
       qsub -e ${reefproj}/reef.e -o ${reefproj}/reef.o -v reefproj reef_job.pbs
    fi
 
-#done
-#done
+done
+done
