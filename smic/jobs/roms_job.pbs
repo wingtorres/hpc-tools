@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -A hpc_sel_smic_2
+#PBS -l nodes=2:ppn=20
+#PBS -l walltime=01:00:00  
+#PBS -N coawst
+#PBS -o ${coawstproj}/$PBS_JOBID.out
+#PBS -e ${coawstproj}/$PBS_JOBID.err
+#PBS -m abe
+#PBS -M walter.torres@duke.edu
+cd ~/COAWST
+source /home/wtorres/.modules
+echo "${coawstproj}"
+ulimit -s unlimited
+mpirun -machinefile $PBS_NODEFILE -np $nprocs ${coawstproj}/coawstM ${coawstproj}/ocean.in
+
