@@ -2,7 +2,7 @@
 #PBS -q workq
 #PBS -A hpc_sel_smic_2
 #PBS -l nodes=2:ppn=20
-#PBS -l walltime=01:00:00  
+#PBS -l walltime=04:00:00  
 #PBS -N coawst
 #PBS -o ${coawstproj}/$PBS_JOBID.out
 #PBS -e ${coawstproj}/$PBS_JOBID.err

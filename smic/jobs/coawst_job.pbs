@@ -1,8 +1,8 @@
 #!/bin/bash
 #PBS -q workq
 #PBS -A hpc_sel_smic_2
-#PBS -l nodes=${nodes}:ppn=${taskspernode}
-#PBS -l walltime=01:00:00  
+#PBS -l nodes=9:ppn=20
+#PBS -l walltime=24:00:00  
 #PBS -N coawst
 #PBS -o ${coawstproj}/$PBS_JOBID.out
 #PBS -e ${coawstproj}/$PBS_JOBID.err
@@ -11,6 +11,7 @@
 cd ~/COAWST
 source /home/wtorres/.modules
 echo "${coawstproj}"
+echo "nprocs = ${nprocs}"
 ulimit -s unlimited
 mpirun -machinefile $PBS_NODEFILE -np $nprocs ${coawstproj}/coawstM ${coawstproj}/coupling.in
 

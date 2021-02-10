@@ -2,14 +2,20 @@
 # Job submission loop for reef toy problem
 #cd /home/wtorres/COAWST/Scripts
 
-#for i in {0, 0.25, 5, 1, 2, 4, 8, 16} #currents: u (cm/s)
-for i in .25 16
+for k in 75 25 70 65 60 55 50 45 40 35 30 #(wave height (cm)
 do
-#for j in {.0625, .25, 1, 4, 16} #roughness length scale: z0 (cm)
-for j in .0625 16
+
+for i in 0 0.25 .5 1 2 4 8 16 32 #currents: u (cm/s)
+#for i in .25 16
 do
+
+for j in .0625 .125 .25 .5 1 2 4 8 16 #roughness length scale: z0 (cm)
+#for j in .0625 16
+do
+
 #i=16
-#j=.0625
+#j=16
+#k=50
 
 u=$(echo "$i/100" | bc -l)  #convert to m/s
 ustr=$(printf "%0.6f\n" $u) 
@@ -17,8 +23,10 @@ z0=$(echo "$j/100" | bc -l) #convert to m
 z0str=$(printf "%0.6f\n" $z0)
 kN=$(echo "$j*30/100" | bc -l)
 kNstr=$(printf "%0.6f\n" $kN)
+hs=$(echo "$k/100" | bc -l) #convert cm to m
+hsstr=$(printf "%0.6f\n" $hs)
 
-dirname='reef_hs_025_u_'$(printf "%03g\n" $i)'_z0_'$(printf "%03g\n" $j) #name directory
+dirname='reef_hs_'$(printf "%03g\n" $k)'_u_'$(printf "%0.2f\n" $i)'_z0_'$(printf "%0.4g\n" $j) #name directory
 export reefproj="/work/wtorres/${dirname}"
 export homeproj="/home/wtorres/COAWST/Projects/reef"
 
@@ -34,6 +42,9 @@ sed -i "s#q = [^ ]*#q = "$ustr"_r8#" ${reefproj}/ana_m2obc.h
 sed -i "s#q = [^ ]*#q = "$ustr"_r8#" ${reefproj}/ana_initial.h
 sed -i "s#Zob == [^ ]\+#Zob == ${z0str}d0#" ${reefproj}/ocean_reef.in #z0
 sed -i "s#FRICTION MADSEN .*#FRICTION MADSEN ${kNstr}#" ${reefproj}/swan_reef.in #kN
+
+python spec_mod.py ${reefproj}/spec.bnd $hs  #edit file
+mv spec_temp.txt ${reefproj}/spec.bnd #overwrite file
 
 #sed -i "s#RESTART .*#RESTART ${reefproj}/swan_rst.dat#" ${reefproj}/swan_reef.in #replace wave restart file output location
 #sed -i "s#RSTNAME == .*#RSTNAME == ${reefproj}/ocean_rst.nc#" ${reefproj}/ocean_reef.in #replace ocean restart file output location
@@ -55,5 +66,6 @@ sed -i -- "s#${homeproj}#${reefproj}#g" ${reefproj}/*.in #find and replace proje
       qsub -e ${reefproj}/reef.e -o ${reefproj}/reef.o -v reefproj reef_job.pbs
    fi
 
+done
 done
 done
