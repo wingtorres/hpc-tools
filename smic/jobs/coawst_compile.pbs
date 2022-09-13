@@ -9,4 +9,4 @@
 #PBS -m abe
 cd $PBS_O_WORKDIR
 source /home/wtorres/.modules
-${coawstproj}/coawst.bash -j -noclean
+${coawstproj}/coawst.bash -j #-noclean

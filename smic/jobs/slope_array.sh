@@ -3,7 +3,7 @@
 #cd /home/wtorres/COAWST/Scripts
 
 cppdef="SLOPE"
-export homeproj="/home/wtorres/COAWST/Projects/slope/frustrum"
+export homeproj="/home/wtorres/COAWSTv3.7/Projects/slope2D"
 
 wavnodes=0
 ocnnodes=40
@@ -11,7 +11,7 @@ export nprocs=$(($wavnodes + $ocnnodes))
 export taskspernode=20
 export nodes=$(($nprocs / $taskspernode))
 
-dt=0.125 #time step
+dt=0.25 #time step
 nt=864000 #total time of simulation in seconds
 ntimes=$(echo "$nt/$dt" | bc)
 nhis=$(echo "3600/$dt" | bc)
@@ -29,7 +29,7 @@ for lat in -30.0 -15.0 -1.0
 do
 
 dirname="cd_${rdrg2}_slope_${slope}_lat_${lat}_vbar_${vbar}"
-export coawstproj="/work/wtorres/slope_2D_runs/${dirname}"
+export coawstproj="/work/wtorres/slope_2D_runs_nonperiodic/${dirname}"
 
 if [ ! -d "$coawstproj" ]; then #create directory if doesn't exist
    echo "creating ${coawstproj}"
@@ -64,7 +64,7 @@ sed -i -- "s#${homeproj}#${coawstproj}#g" ${coawstproj}/*.in #find and replace p
 
 #   if [ ! -f "${coawstproj}/coawstM" ]; then #test if compilation successful
 
-cp /home/wtorres/COAWST/coawst.bash ${coawstproj} #copy build script over
+cp /home/wtorres/COAWSTv3.7/coawst_slope.bash ${coawstproj}/coawst.bash #copy build script over
 sed -i "s#MY_PROJECT_DIR=.*#MY_PROJECT_DIR=${coawstproj}#" ${coawstproj}/coawst.bash #Change analytic + header dir
 sed -i "s#COAWST_APPLICATION=.*#COAWST_APPLICATION=${cppdef}#" ${coawstproj}/coawst.bash
 chmod +x ${coawstproj}/coawst.bash #fix permissions

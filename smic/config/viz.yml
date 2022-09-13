@@ -4,20 +4,22 @@ channels:
   - intel
   - defaults
 dependencies:
+  - bottleneck
   - xarray
+  - xgcm
   - netcdf4
   - dask
-  - hvplot
-  - datashader
+#  - hvplot
+#  - datashader
 #  - python=3.7
-  - bokeh
+#  - bokeh
   - cmocean
-  - geoviews
+#  - geoviews
   - cartopy
-  - holoviews
-  - xgcm
-  - selenium
-  - phantomjs
+#  - holoviews
+#  - selenium
+#  - phantomjs
   - seaborn
-prefix:
+#  - nco
+prefix: $HOME/miniconda/envs/viz
 
