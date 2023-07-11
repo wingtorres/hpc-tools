@@ -1,0 +1,108 @@
+Bootstrap: docker
+
+From: intel/oneapi-hpckit:latest
+
+%post -c bash
+	
+	source /opt/intel/oneapi/setvars.sh --force &> /dev/null
+	
+	apt update -y
+	apt-get install -y m4
+	apt-get install -y curl
+	
+	export CC=$(which mpiicc)
+	export CXX=$(which icpc)
+	export FC=$(which mpiifort)
+	export F77=$(which mpif77)
+	export I_MPI_F90=ifort
+	export USE_MPI=ON
+	export USE_MPIF90=ON
+	export USE_NETCDF4=ON
+
+	export ZDIR=/opt/zlib
+	export H5DIR=/opt/hdf5
+	export NCDIR=/opt/netcdf-c
+	export NFDIR=/opt/netcdf-fortran
+	export BUILDDIR=/tmp
+
+	#zlib v1.12.12	
+	cd $BUILDDIR
+	git clone https://github.com/madler/zlib.git
+	git checkout 21767c654d31d2dccdde4330529775c6c5fd5389
+	cd zlib
+	./configure --prefix=${ZDIR}
+	make install CFLAGS='-fPIC'
+
+	#HDF5 v.1.13.1
+	cd $BUILDDIR
+	wget https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.13/hdf5-1.13.1/src/hdf5-1.13.1.tar.bz2
+	tar xjf hdf5-1.13.1.tar.bz2
+	cd hdf5-1.13.1
+	./configure --with-zlib=${ZDIR} --prefix=${H5DIR} --enable-fortran --enable-cxx
+	make install	
+
+	#NetCDF-C v 4.9.0
+	cd $BUILDDIR
+	git clone https://github.com/Unidata/netcdf-c.git -b v4.9.0
+	cd netcdf-c
+	export LDFLAGS="-L${H5DIR}/lib -L${ZDIR}/lib"
+	export CPPFLAGS="-I${H5DIR}/include -I${ZDIR}/include"
+	./configure --prefix=${NCDIR}	
+	make check
+	make install
+
+	export LD_LIBRARY_PATH=${NCDIR}/lib:${LD_LIBRARY_PATH}
+	export PATH=$PATH:${NCDIR}/bin
+
+	#NetCDF-fortran
+	cd $BUILDDIR
+	git clone https://github.com/Unidata/netcdf-fortran.git -b v4.5.4
+	cd netcdf-fortran
+	export CPPFLAGS=-I${NCDIR}/include
+	export LDFLAGS=-L${NCDIR}/lib
+	./configure --prefix=${NFDIR}
+	make check
+	make install
+
+	export PATH=$PATH:${NFDIR}/bin
+
+	#COAWST
+	cd /opt	
+	git clone https://github.com/jcwarner-usgs/COAWST.git 
+	git checkout bcb8014fbe0d74d52bebaa6027f7d62b6c3da572 
+
+	export USE_NETCDF4=ON
+	export USE_MPI=ON
+	export USE_MPIF90=ON
+
+	export MCT_PATH=/opt/COAWST/Lib/MCT
+	export MCT_INCDIR=${MCT_PATH}/include
+	export MCT_LIBDIR=${MCT_PATH}/lib
+
+	cd /opt/COAWST/Lib/MCT
+	./configure --prefix=$MCT_PATH CC=$CC FC=$FC
+	make
+	make install
+
+	cd /opt/COAWST/Lib/SCRIP_COAWST
+	make
+
+%environment
+        source /opt/intel/oneapi/setvars.sh --force &> /dev/null
+	export CC=$(which mpiicc)
+        export CXX=$(which icpc)
+        export FC=$(which mpiifort)
+        export F77=$(which mpif77)
+        export I_MPI_F90=ifort
+        export USE_MPI=ON
+        export USE_MPIF90=ON
+        export USE_NETCDF4=ON
+
+        export MCT_PATH=/opt/COAWST/Lib/MCT
+        export MCT_INCDIR=${MCT_PATH}/include
+        export MCT_LIBDIR=${MCT_PATH}/lib
+
+	export NCDIR=/opt/netcdf-c
+	export NFDIR=/opt/netcdf-fortran
+	PATH+=:${NCDIR}/bin:${NFDIR}/bin
+	LD_LIBRARY_PATH+=:${NFDIR}/lib:${NCDIR}/lib
