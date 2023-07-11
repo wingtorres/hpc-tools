@@ -1,17 +1,19 @@
 #!/bin/bash
 #PBS -q workq
-#PBS -A hpc_sel_smic_2
-#PBS -l nodes=9:ppn=20
-#PBS -l walltime=24:00:00  
+#PBS -A hpc_sel_smic_5
+#PBS -l nodes=8:ppn=20
+#PBS -l walltime=36:00:00  
 #PBS -N coawst
 #PBS -o ${coawstproj}/$PBS_JOBID.out
 #PBS -e ${coawstproj}/$PBS_JOBID.err
 #PBS -m abe
-#PBS -M walter.torres@duke.edu
-cd ~/COAWST
+#PBS -M wtorres@uw.edu 
+
+cd /project/holstein/wtorres/COAWST
 source /home/wtorres/.modules
 echo "${coawstproj}"
 echo "nprocs = ${nprocs}"
 ulimit -s unlimited
+
 mpirun -machinefile $PBS_NODEFILE -np $nprocs ${coawstproj}/coawstM ${coawstproj}/coupling.in
 

@@ -12,7 +12,7 @@ export taskspernode=20
 export nodes=$(($nprocs / $taskspernode))
 
 dt=0.5 #time step
-nt=5184000 #total time of simulation in seconds
+nt=518400 #total time of simulation in seconds
 ntimes=$(echo "$nt/$dt" | bc)
 nhis=$(echo "3600/$dt" | bc)
 ndefhis=$(echo "86400/$dt" | bc)
@@ -21,13 +21,35 @@ ndefavg=$(echo "3600/$dt" | bc)
 
 #submission loop
 
-for rdrg2 in 0.007815 0.25
-do
-for ubar in 0.005 0.16
-do
+#for rdrg2 in 0.007815 0.015625 0.03125 0.0625 0.125 0.25
+#for rdrg2 in 0.25
+#do
+#for ubar in 0.0 0.01 0.02 0.04 0.08 0.16 
+#for ubar in 0.02 0.04 0.08 
+#do
 
-#rdrg2=0.0125
-#ubar=0.16
+rdrg2=0.125
+ubar=0.16
+
+#skip 15 day runs
+
+if [ $rdrg2 = 0.03125 ] && [ $ubar = 0.02 ]; then 
+   echo "skipping $rdrg2 $ubar"
+   continue 
+   continue
+fi
+
+if [ $rdrg2 = 0.03125 ] && [ $ubar = 0.04 ]; then 
+   echo "skipping $rdrg2 $ubar"
+   continue 
+   continue
+fi
+
+if [ $rdrg2 = 0.03125 ] && [ $ubar = 0.005 ]; then 
+   echo "skipping $rdrg2 $ubar"
+   continue 
+   continue
+fi
 
 dirname="cd_${rdrg2}_u_${ubar}"
 export coawstproj="/work/wtorres/reef_idealized/${dirname}"
@@ -36,6 +58,9 @@ if [ ! -d "$coawstproj" ]; then #create directory if doesn't exist
    echo "creating ${coawstproj}"
    mkdir ${coawstproj}
    mkdir ${coawstproj}/output
+else
+   :
+#   continue #if directory exists don't run code
 fi
  
 cp -au ${homeproj}/. ${coawstproj} #copy all input/grid files to output folder
@@ -80,5 +105,7 @@ else
 	 qsub -e ${coawstproj}/coawst.e -o ${coawstproj}/coawst.o -v coawstproj,nprocs,taskspernode,nodes coawst_job.pbs
 fi
 
-done
-done
+echo "^^^ submitted  ${coawstproj}"
+
+#done
+#done

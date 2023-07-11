@@ -6,13 +6,13 @@ cppdef="SLOPE"
 export homeproj="/home/wtorres/COAWSTv3.7/Projects/slope2D"
 
 wavnodes=0
-ocnnodes=40
+ocnnodes=200
 export nprocs=$(($wavnodes + $ocnnodes))
 export taskspernode=20
 export nodes=$(($nprocs / $taskspernode))
 
-dt=0.25 #time step
-nt=864000 #total time of simulation in seconds
+dt=0.125 #time step
+nt=1296000 #total time of simulation in seconds
 ntimes=$(echo "$nt/$dt" | bc)
 nhis=$(echo "3600/$dt" | bc)
 ndefhis=$(echo "43200/$dt" | bc)
@@ -28,8 +28,8 @@ do
 for lat in -30.0 -15.0 -1.0
 do
 
-dirname="cd_${rdrg2}_slope_${slope}_lat_${lat}_vbar_${vbar}"
-export coawstproj="/work/wtorres/slope_2D_runs_nonperiodic/${dirname}"
+dirname="cd_${rdrg2}_slope_${slope}_lat_${lat}"
+export coawstproj="/work/wtorres/slope_2D_large/${dirname}"
 
 if [ ! -d "$coawstproj" ]; then #create directory if doesn't exist
    echo "creating ${coawstproj}"
@@ -48,8 +48,8 @@ sed -i "s#f0=.*#f0=2.0_r8*7.29E-05_r8*SIN(${lat}*3.14159_r8/180.0_r8)#" ${coawst
 sed -i "s#nodes=.*#nodes=${nodes}:ppn=${taskspernode}#" roms_job.pbs
 #sed -i "s#NnodesWAV =.*#NnodesWAV = ${wavnodes}#" ${coawstproj}/coupling.in
 #sed -i "s#NnodesOCN =.*#NnodesOCN = ${ocnnodes}#" ${coawstproj}/coupling.in
-sed -i "s#NtileI ==.*#NtileI == 10#" ${coawstproj}/ocean.in
-sed -i "s#NtileJ ==.*#NtileJ == 4#" ${coawstproj}/ocean.in 
+sed -i "s#NtileI ==.*#NtileI == 20#" ${coawstproj}/ocean.in
+sed -i "s#NtileJ ==.*#NtileJ == 10#" ${coawstproj}/ocean.in 
 
 sed -i "s#DT ==.*#DT == ${dt}#" ${coawstproj}/ocean.in #change time step
 sed -i "s#NTIMES ==.*#NTIMES == $ntimes#" ${coawstproj}/ocean.in #simulation duration
