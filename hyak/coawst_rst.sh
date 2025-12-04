@@ -30,9 +30,10 @@ export nodes=$(($nprocs / $taskspernode))
 #sed -i "s#DIANAME ==.*#DIANAME == ${coawstproj}/results/ocean_dia.nc#" ${coawstproj}/ocean.in #replace diagnostics file output location 
 #sed -i "s#AVGNAME ==.*#AVGNAME == ${coawstproj}/results/ocean_avg.nc#" ${coawstproj}/ocean.in #replace averages file output location
 
-if [ ! -d "${coawstproj}/ocean_ini.nc" ]; then #create init file if doesn't exist
-   cp ${coawstproj}/ocean_rip_current_rst.nc ${coawstproj}/ocean_ini.nc #copy restart file to init file
-fi
+#if [ ! -d "${coawstproj}/ocean_ini.nc" ]; then #create init file if doesn't exist
+#  cp ${coawstproj}/ocean_rip_current_rst.nc ${coawstproj}/ocean_ini.nc #copy restart file to init file
+cp ${coawstproj}/results/ocean_rip_current_his_00001.nc ${coawstproj}/ocean_ini.nc #copy restart file to init file
+#fi
 
 #if [ ! -d "${coawstproj}/results" ]; then
 #   mkdir ${coawstproj}/results
@@ -40,13 +41,14 @@ fi
 
 sed -i "s#NRREC ==.*#NRREC == -1#" ${coawstproj}/ocean.in #start new run initialized by restart
 #sed -i "s#DSTART =.*#DSTART = 12.5d0                      !days#" ${coawstproj}/ocean.in #adjust start time
-sed -i "s#ININAME ==.*# ININAME == ${coawstproj}/ocean_ini.nc#" ${coawstproj}/ocean.in #specify ini file
+sed -i "s# ININAME ==.*# ININAME == ${coawstproj}/ocean_ini.nc#" ${coawstproj}/ocean.in #specify ini file
 #sed -i "s#NDEFHIS ==.*#NDEFHIS == 0#" ${coawstproj}/ocean.in
 
 #sed -i "s#MY_ROOT_DIR=.*#MY_ROOT_DIR=${MYGROUP}/COAWST#" ${coawstproj}/coawst.bash #change root before recompiling
 #sed -i "s#MY_PROJECT_DIR=.*#MY_PROJECT_DIR=${coawstproj}#" ${coawstproj}/coawst.bash #change path before recompiling
 #sed -i "s#VARNAME =.*#VARNAME = /group/pawsey0106/wtorres/COAWST/ROMS/External/varinfo.dat#" ${coawstproj}/ocean.in
 sed -i "s#define ANA_INITIAL#undef ANA_INITIAL#" ${coawstproj}/rip_idealized.h
+sed -i "s#define PERFECT_RESTART#undef PERFECT_RESTART#" ${coawstproj}/rip_idealized.h
 
 coawstcompile=$(sbatch --output=${coawstproj}/compile_rst.out --error=${coawstproj}/compile_rst.err --export=coawstproj=$coawstproj --parsable coawst_compile.slurm)
 
