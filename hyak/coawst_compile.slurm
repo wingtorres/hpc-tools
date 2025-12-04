@@ -2,6 +2,7 @@
 #SBATCH --job-name="compile"
 #SBATCH --partition=compute
 #SBATCH --account=nearshore
+#SBATCH --dependency=singleton
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
 #SBATCH --ntasks-per-node=8
@@ -17,6 +18,8 @@ source ${WORKDIR}/opt/coawst_vars.sh
 #conda activate coawst
 #source $WORKDIR/coawst-conda/config
 
-/bin/bash ${coawstproj}/coawst.bash -j
+cd /gscratch/nearshore/wtorres/opt/COAWST
+
+/bin/bash ${coawstproj}/build_coawst.sh -j
 
 
