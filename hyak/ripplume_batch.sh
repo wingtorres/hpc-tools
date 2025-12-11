@@ -70,17 +70,22 @@ sed -i "s#COAWST_APPLICATION=.*#COAWST_APPLICATION=${cppdef}#" ${coawstproj}/bui
 sed -i "s#VARNAME =.*#VARNAME = /gscratch/nearshore/wtorres/opt/COAWST/ROMS/External/varinfo.dat#" ${coawstproj}/ocean.in
 chmod +x ${coawstproj}/build_coawst.sh #fix permissions
 
-coawstcompile=$(sbatch --output=${coawstproj}/compile.out --error=${coawstproj}/compile.err --export=coawstproj=$coawstproj --parsable coawst_compile.slurm)
 
-wait ${!}
-sleep 1
+##Compile and Run
 
-sbatch --ntasks=$nprocs --ntasks-per-node=$taskspernode --nodes=$nodes \
---dependency=aftercorr:$coawstcompile \
---output=${coawstproj}/coawst.out --error=${coawstproj}/coawst.err --export=coawstproj=$coawstproj coawst_job.slurm
+#coawstcompile=$(sbatch --output=${coawstproj}/compile.out --error=${coawstproj}/compile.err --export=coawstproj=$coawstproj --parsable coawst_compile.slurm)
+
+#wait ${!}
+#sleep 1
 
 #sbatch --ntasks=$nprocs --ntasks-per-node=$taskspernode --nodes=$nodes \
+#--dependency=aftercorr:$coawstcompile \
 #--output=${coawstproj}/coawst.out --error=${coawstproj}/coawst.err --export=coawstproj=$coawstproj coawst_job.slurm
+
+#Run Only
+
+sbatch --ntasks=$nprocs --ntasks-per-node=$taskspernode --nodes=$nodes \
+--output=${coawstproj}/coawst.out --error=${coawstproj}/coawst.err --export=coawstproj=$coawstproj coawst_job.slurm
 
 
 wait ${!}
