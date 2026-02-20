@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# These are the PBS Directives
+#PBS -N suntans
+#PBS -A uamp0001
+#PBS -q main 
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=20:mpiprocs=20
+
+echo $rundata
+
+# Environment Management
+module load intel-oneapi/2024.2.1
+module load netcdf/4.9.3
+
+export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
+echo "$suntansproj"
+
+cd $suntansproj
+
+make
+
+# Scripting
+mpirun -np 20 ../../main/sun -g --datadir=${suntansproj}/$rundata
+wait
+mpirun -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/$rundata
+
