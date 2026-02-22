@@ -40,17 +40,18 @@ projectpath="/glade/work/wtorres/idealized_siw/suntans-gvc-oblique-iw/examples/T
 for latitude in 0 45
 do
 
-run="rundata_f_$latitude"
+#run="rundata_f_$latitude"
+run="rundata"
 runpath="$projectpath/$run"
 
 # copy base project into new run directory, renamed
-rsync -av "$projectpath/rundata/"  "$runpath/"
-#cp "$projectpath/rundata/*.h" "$runpath/"
-rsync -am --include="'*.h" --include='*/' --exclude='*' "$projectpath/" "$runpath/" #copy header files
-rsync -am --include="'*.c" --include='*/' --exclude='*' "$projectpath/" "$runpath/" #copy c files
 
-break
+#rsync -av "$projectpath/rundata/"  "$runpath/"
+#cp "$projectpath"/*.h "$runpath/"
+#cp "$projectpath"/*.c "$runpath/"
+#cp "$projectpath"/Makefile "$runpath/"
 
+# Compute parameters to pass
 f=$(coriolis "$latitude")
 
 # edit input files
@@ -60,14 +61,14 @@ vary_param "$runpath" "Coriolis_f" "$f"
 # build grid, if necessary (MATLAB)
 function_path="${projectpath}/mfiles"
 suntansfile="${runpath}/suntans.dat"
-
-#echo "$suntansfile"
-#matlab -nodisplay -r "addpath($function_path); idealized_grid($runpath, $suntansfile)"
-matlab -batch "addpath('$function_path');  idealized_grid('$runpath', '$suntansfile')"
+#matlab -batch "addpath('$function_path');  idealized_grid('$runpath', '$suntansfile')"
 
 # submit job w/ enviromental parameters
 #rundata=$runpath
-qsub -v rundata=$runpath suntans_run.pbs
+#qsub -v rundata=$runpath suntans_run.pbs
 
+qsub suntans_run.pbs
+wait
+#break
 done
 

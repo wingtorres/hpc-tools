@@ -7,21 +7,28 @@
 #PBS -l walltime=00:30:00
 #PBS -l select=1:ncpus=20:mpiprocs=20
 
-echo $rundata
-
 # Environment Management
 module load intel-oneapi/2024.2.1
 module load netcdf/4.9.3
 
-export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
-echo "$suntansproj"
+#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
+export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M2_H100"
+#echo "$suntansproj"
 
 cd $suntansproj
+echo "$suntansproj"
 
-make
+# remove old output data and clean run files
+make clean
+make -C ../../main clean
+mkdir -p data
+cp -r ./rundata/* ./data
+make data
+
+echo "${suntansproj}/data"
 
 # Scripting
-mpirun -np 20 ../../main/sun -g --datadir=${suntansproj}/$rundata
-wait
-mpirun -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/$rundata
+mpirun -np 20 ../../main/sun -g --datadir=${suntansproj}/data
+mpirun -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/data
 
+cd ~/hpc-tools/derecho
