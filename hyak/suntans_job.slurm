@@ -6,7 +6,7 @@
 
 #SBATCH --account=nearshore
 #SBATCH --partition=compute
-#SBATCH --time=6:00:00 # Max runtime in DD-HH:MM:SS format.
+#SBATCH --time=01:00:00 # Max runtime in DD-HH:MM:SS format.
 
 # Modules to use.
 module load intel/oneAPI
@@ -23,6 +23,6 @@ cd ${suntansproj}
 make
 
 # Your programs to run.
-#mpirun -np $SLURM_NTASKS ../../main/sun -t -g --datadir=${suntansproj}/rundata
-mpirun -np $SLURM_NTASKS ../../main/sun -s -vv --datadir=${suntansproj}/rundata_hr_f
+mpirun -np $SLURM_NTASKS ../../../main/sun -g --datadir=${suntansproj}
+mpirun -np $SLURM_NTASKS ../../../main/sun -s -vv --datadir=${suntansproj}
 
