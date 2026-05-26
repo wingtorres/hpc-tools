@@ -37,7 +37,7 @@ projectpath="/glade/work/wtorres/idealized_siw/suntans-gvc-oblique-iw/examples/T
 
 # ==============================================================================
 
-for latitude in 0 45
+for latitude in 0 10
 do
 
 #run="rundata_f_$latitude"
