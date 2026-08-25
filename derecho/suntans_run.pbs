@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -euo pipefail
 
 # These are the PBS Directives
 #PBS -N suntans
@@ -27,7 +28,7 @@ echo "$suntansproj"
 # remove old output data and clean run files
 make clean
 make -C ../../main clean
-make ../../main
+make -C ../../main
 mkdir -p data
 cp -r ./rundata/* ./data
 make data
@@ -40,6 +41,8 @@ echo "$(pwd)"
 #mpiexec -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/data
 
 mpiexec -np 20 ../../main/sun -g --datadir=data
-mpiexec -np 20 ../../main/sun -s -vv --datadir=data
+mpiexec -np 20 ../../main/sun -s -vv --datadir=data #> sun.out 2> sun.err
+#cat sun.out
+#cat sun.err
 
 cd ~/hpc-tools/derecho
