@@ -57,14 +57,15 @@ suntansproj="${WORKDIR}/opt/SUNTANS/examples/oblique_internal_wave"
 
 # ==============================================================================
 
-#for latitude in 0 45
-#do
-latitude=0
-
-for A in 1 2 4 8 16
+for latitude in -10 0 10
 do
+#latitude=0
 
-run="rundata_A_$A"
+A=12
+#for A in 30 24 18 12 6
+#do
+
+run="rundata_A_${A}_lat_${latitude}"
 runpath="$suntansproj/$run"
 
 # copy base project into new run directory, renamed
@@ -88,7 +89,7 @@ U=$(amp2vel "$A" "$H" "$K" "$omega" "$f")
 
 # edit input files
 vary_param "$runpath" "amp" "$U"
-#vary_param "$runpath" "Coriolis_f" "$f"
+vary_param "$runpath" "Coriolis_f" "$f"
 
 #continue
 
@@ -107,5 +108,6 @@ sbatch  --ntasks=40 --ntasks-per-node=20 --nodes=2 \
         suntans_job.slurm
 
 wait
+#break
 done
 

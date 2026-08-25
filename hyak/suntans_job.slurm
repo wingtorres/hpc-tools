@@ -6,7 +6,7 @@
 
 #SBATCH --account=nearshore
 #SBATCH --partition=compute
-#SBATCH --time=01:00:00 # Max runtime in DD-HH:MM:SS format.
+#SBATCH --time=02:00:00 # Max runtime in DD-HH:MM:SS format.
 
 # Modules to use.
 module load intel/oneAPI
