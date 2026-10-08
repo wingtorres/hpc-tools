@@ -65,13 +65,14 @@ def setup_run_directory(src: Path, dst: Path) -> None:
 
     print(f"  Run directory ready: {dst}")
 
-
 def build_grid(run_path: Path, suntans_file: Path) -> None:
     """Call MATLAB to build the idealized grid."""
     cmd = [
         "matlab", "-batch",
         f"addpath('{MFILES_PATH}'); idealized_grid('{run_path}', '{suntans_file}')"
     ]
+    print("Building grid...")
+    print(f"{" ".join(cmd)}")
     subprocess.run(cmd, check=True)
 
 
