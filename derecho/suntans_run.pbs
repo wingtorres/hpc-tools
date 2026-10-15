@@ -14,9 +14,9 @@ module load intel-oneapi/2024.2.1
 module load cray-mpich/8.1.29
 module load netcdf/4.9.2
 
-export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
+#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
 #export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/oblique_internal_wave"
-#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M2_H100"
+export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M2_H100"
 #echo "$suntansproj"
 
 export LD_LIBRARY_PATH="$(nc-config --prefix)/lib64":$LD_LIBRARY_PATH
