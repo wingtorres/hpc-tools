@@ -21,8 +21,7 @@ def bvf(frequency, wavenumber, depth, coriolis):
     N2 : float - buoyancy frequency squared (rad²/s²)
     """
     pi = math.pi
-    N2 = (frequency**2 * (pi**2 + wavenumber**2 * depth**2) - (pi * coriolis)**2) \
-         / (wavenumber**2 * depth**2)
+    N2 = (frequency**2 * (pi**2 + wavenumber**2 * depth**2) - (pi * coriolis)**2) / (wavenumber**2 * depth**2)
     return N2
 
 def uv(amplitude, k, theta, m, ω, coriolis, N2):
@@ -207,6 +206,19 @@ def solve_flux_variable(*, flux_ratio, H, omega, theta=0.0,
         )
     sign = 1.0 if f_sign >= 0 else -1.0
     return sign * omega * math.sqrt(radicand)
+
+def mode1_vertical_wavenumber(H):
+    """Mode-1 vertical wavenumber m1 = pi/H."""
+    if H <= 0:
+        raise ValueError("H must be positive.")
+    return math.pi / H
+
+def reference_flux(rho0 = 1025, H = 100, omega = 2*math.pi/(3600*12.42)):
+    """Fixed mode-1 reference flux F0 [W/m]."""
+    if rho0 <= 0 or H <= 0 or omega <= 0:
+        raise ValueError("rho0, H, and omega must be positive.")
+    m = mode1_vertical_wavenumber(H)
+    return rho0 * H * omega**3 / (4.0 * m**3)
 
 
 def _validate_common(H, omega, theta):
