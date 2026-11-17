@@ -62,8 +62,7 @@ def reference_bathy(x, Λ, x0, h0):
 
 def bathy(x, Λ, x0, β, h0):
     x = np.asarray(x)
-    return np.where(x < x0, h0,
-                    h0 + (Λ / β) * log_cosh(β * (x - x0)))
+    return np.where(x < x0, h0, h0 + (Λ / β) * log_cosh(β * (x - x0)))
 
 
 def match_bathy(L, Λ_ref=0.02, h0=-100.0, β=0.001385):

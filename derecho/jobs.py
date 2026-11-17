@@ -35,14 +35,16 @@ def suntans_run(suntans_info):
 
 
 def setup_run_directory(src: Path, dst: Path) -> None:
+    
     """Copy base run directory and associated source files."""
-    if dst.exists():
-        shutil.rmtree(dst)
-    shutil.copytree(src, dst)
+    dst.mkdir(parents=True, exist_ok=True)
 
-    # Copy header/source files and Makefile from project root
-    #for pattern in ("*.h", "*.c", "Makefile"):
-    #    for f in PROJECT_PATH.glob(pattern):
-    #        shutil.copy2(f, dst)
+    for subdir in ("data", "build", "output"):
+        (dst / subdir).mkdir(parents=True, exist_ok=True)
+   
+    #Copy source files (.c,.h)
+    shutil.copytree( src / "src", dst / "src", dirs_exist_ok=True)
+    #Copy suntans.dat
+    shutil.copy2( src / "data" / "suntans.dat", dst / "input"  )
 
     print(f"  Run directory ready: {dst}")
