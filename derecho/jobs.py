@@ -1,3 +1,7 @@
+import os
+import shutil
+import math
+from pathlib import Path
 from collections import OrderedDict
 
 def suntans_run(suntans_info):
@@ -37,8 +41,8 @@ def setup_run_directory(src: Path, dst: Path) -> None:
     shutil.copytree(src, dst)
 
     # Copy header/source files and Makefile from project root
-    for pattern in ("*.h", "*.c", "Makefile"):
-        for f in PROJECT_PATH.glob(pattern):
-            shutil.copy2(f, dst)
+    #for pattern in ("*.h", "*.c", "Makefile"):
+    #    for f in PROJECT_PATH.glob(pattern):
+    #        shutil.copy2(f, dst)
 
     print(f"  Run directory ready: {dst}")
