@@ -1,0 +1,56 @@
+#!/bin/bash
+#set -euo pipefail
+
+# These are the PBS Directives
+#PBS -N suntans
+#PBS -A uamp0001
+#PBS -q main 
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=20:mpiprocs=20
+
+if [[ -v suntansproj  ]]; then
+    echo "running $suntansproj..."
+else
+    echo "suntansproj not provided"
+    exit
+fi
+
+# Environment Management
+module load ncarenv/24.12
+module load intel-oneapi/2024.2.1
+module load cray-mpich/8.1.29
+module load netcdf/4.9.2
+
+#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
+#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/oblique_internal_wave"
+#export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M2_H100"
+#echo "$suntansproj"
+
+export LD_LIBRARY_PATH="$(nc-config --prefix)/lib64":$LD_LIBRARY_PATH
+
+cd $suntansproj
+#echo "$suntansproj"
+
+# remove old output data and clean run files
+make clean
+make -C ../../../../main clean
+make -C ../../../../main
+#mkdir -p data
+#cp -r ./rundata/* ./data
+
+cd $suntansproj/src
+make ../data
+
+cd $suntansproj
+echo "$(pwd)"
+
+# Scripting
+#mpiexec -np 20 ../../main/sun -g --datadir=${suntansproj}/data
+#mpiexec -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/data
+
+mpiexec -np 20 ../../../../main/sun -g --datadir=data
+mpiexec -np 20 ../../../../main/sun -s -vv --datadir=data #> sun.out 2> sun.err
+#cat sun.out
+#cat sun.err
+
+cd ~/hpc-tools/derecho

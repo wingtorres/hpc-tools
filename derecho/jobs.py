@@ -45,6 +45,6 @@ def setup_run_directory(src: Path, dst: Path) -> None:
     #Copy source files (.c,.h)
     shutil.copytree( src / "src", dst / "src", dirs_exist_ok=True)
     #Copy suntans.dat
-    shutil.copy2( src / "data" / "suntans.dat", dst / "input"  )
+    shutil.copy2( src / "data" / "suntans.dat", dst / "data"  )
 
     print(f"  Run directory ready: {dst}")

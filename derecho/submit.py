@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import subprocess
 from pathlib import Path
 
 import math
@@ -53,11 +54,17 @@ for amp in [5,10,15]:
         W = domain_width_from_wave(k = k[-1], theta_deg = 30.0, n_waves=1)
         generate_grid(datadir = destproj + "/data", Nx = 200, Ny = 130, L = 20000.0, W = W)
         
-        dat_path = Path(f"{destproj}/input/suntans.dat")
+        dat_path = Path(f"{destproj}/data/suntans.dat")
         print(dat_path)
 
         for key, value in suntans_info.items():
             vary_param(dat_path, key, value)
 
-        cmd = [f'qsub -v suntansproj="{path}" suntans_job.pbs']
+#        cmd = [f'qsub -v suntansproj="{destproj}" suntans.pbs']
+        result = subprocess.run( ["qsub", "-v", f"suntansproj={destproj}", "suntans.pbs"],
+                check=True,
+                capture_output=True,
+                text=True,
+                )
+
         assert False
