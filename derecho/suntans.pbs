@@ -19,7 +19,9 @@ fi
 module load ncarenv/24.12
 module load intel-oneapi/2024.2.1
 module load cray-mpich/8.1.29
-module load netcdf/4.9.2
+#module load netcdf/4.9.3 #.2 works bu tnot available anymore
+
+# module load ncarenv/24.12  intel-oneapi/2024.2.1  openmpi/5.0.7 module load netcdf/4.9.3
 
 #export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/T_M1"
 #export suntansproj="$WORK/idealized_siw/suntans-gvc-oblique-iw/examples/oblique_internal_wave"
@@ -27,19 +29,21 @@ module load netcdf/4.9.2
 #echo "$suntansproj"
 
 export LD_LIBRARY_PATH="$(nc-config --prefix)/lib64":$LD_LIBRARY_PATH
+export SUNTANSHOME="$WORK/idealized_siw/suntans-gvc-oblique-iw/main" #define for Makefile
 
 cd $suntansproj
 #echo "$suntansproj"
 
 # remove old output data and clean run files
 make clean
-make -C ../../../../main clean
-make -C ../../../../main
+make -C $SUNTANSHOME clean
+make -C $SUNTANSHOME
 #mkdir -p data
 #cp -r ./rundata/* ./data
 
 cd $suntansproj/src
-make ../data
+make clean
+make #../data
 
 cd $suntansproj
 echo "$(pwd)"
@@ -48,9 +52,8 @@ echo "$(pwd)"
 #mpiexec -np 20 ../../main/sun -g --datadir=${suntansproj}/data
 #mpiexec -np 20 ../../main/sun -s -vv --datadir=${suntansproj}/data
 
-mpiexec -np 20 ../../../../main/sun -g --datadir=data
-mpiexec -np 20 ../../../../main/sun -s -vv --datadir=data #> sun.out 2> sun.err
-#cat sun.out
-#cat sun.err
+ulimit -c unlimited
+mpiexec -np 1 $SUNTANSHOME/sun -g --datadir=${suntansproj}/data > grid.log 2>&1
+#mpiexec -np 20 $SUNTANSHOME/sun -s -vv --datadir=${suntansproj}/data 
 
 cd ~/hpc-tools/derecho
