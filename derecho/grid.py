@@ -258,19 +258,20 @@ def generate_grid(
     mark_v[jv_f == 0]  = south_mark
     mark_v[jv_f == Ny] = north_mark
 
-    g0_v = -np.ones(len(iv_f), dtype=int)   # south cell (j-1)
-    g1_v = -np.ones(len(iv_f), dtype=int)   # north cell (j)
+    # MATLAB quadgrid_periodic uses north (first), south (second).
+    g0_v = -np.ones(len(iv_f), dtype=int)   # north cell (j)
+    g1_v = -np.ones(len(iv_f), dtype=int)   # south cell (j-1)
 
     jd  = jv_f - 1
     ju2 = jv_f
     if per_y:
-        g0_v[:] = cell_idx[iv_f, jd  % Ny]
-        g1_v[:] = cell_idx[iv_f, ju2 % Ny]
+        g0_v[:] = cell_idx[iv_f, ju2 % Ny]
+        g1_v[:] = cell_idx[iv_f, jd  % Ny]
     else:
         mask_d  = jd  >= 0
         mask_u2 = ju2 < Ny
-        g0_v[mask_d]  = cell_idx[iv_f[mask_d],  jd[mask_d]]
-        g1_v[mask_u2] = cell_idx[iv_f[mask_u2], ju2[mask_u2]]
+        g0_v[mask_u2] = cell_idx[iv_f[mask_u2], ju2[mask_u2]]
+        g1_v[mask_d]  = cell_idx[iv_f[mask_d],  jd[mask_d]]
 
     # --- Concatenate ---
     edges_n1   = np.concatenate([n1_u,   n1_v])
@@ -306,9 +307,8 @@ def generate_grid(
     cells_path = datadir / "cells.dat"
     with open(cells_path, "w") as f:
         for k in range(Nc):
-            c  = cells[k] - 1
-            nb = neigh[k].copy()
-            nb[nb != -1] -= 1
+            c = cells[k]
+            nb = neigh[k]
             f.write(
                 f"4 {xv[k]:.10e} {yv[k]:.10e} "
                 f"{c[0]} {c[1]} {c[2]} {c[3]} "
@@ -325,11 +325,11 @@ def generate_grid(
     edges_path = datadir / "edges.dat"
     with open(edges_path, "w") as f:
         for k in range(Ne):
-            n1 = int(edges_n1[k]) - 1
-            n2 = int(edges_n2[k]) - 1
+            n1 = int(edges_n1[k])
+            n2 = int(edges_n2[k])
             mk = int(edges_mark[k])
-            g0 = int(edges_g0[k]); g0 = g0 - 1 if g0 != -1 else -1
-            g1 = int(edges_g1[k]); g1 = g1 - 1 if g1 != -1 else -1
+            g0 = int(edges_g0[k])
+            g1 = int(edges_g1[k])
             f.write(f"{n1} {n2} {mk} {g0} {g1}\n")
 
     print(
